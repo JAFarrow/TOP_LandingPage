@@ -1,9 +1,53 @@
+* {
+    font-family: sans-serif;
+}
+
 header {
     background-color: #1F2937;
 }
 
+h1 {
+    font: extra-bold 48px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h3 {
+    font: extra-bold 36px;
+    color: #1F2937
+}
+
+h5 {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 main {
     background-color: #1F2937;
+}
+
+aside {
+    background-color: #E5E7EB;
+}
+
+aside p {
+    font: light italic 36px;
+    color: #1F2937;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+}
+
+.cta {
+    background-color: #3882F6;
 }
 
 footer {
