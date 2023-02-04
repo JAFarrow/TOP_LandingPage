@@ -84,7 +84,7 @@ h5 {
     background-color: #1F2937;
     margin: 0;
     display: flex;
-    padding: 0 0 60px 0;
+    padding: 0 0 80px 0;
 }
 
 /*.hero > div {
@@ -130,7 +130,7 @@ h5 {
 
 .infosec {
     margin: 0 0 0 50px;
-    padding: 0 0 60px 0;
+    padding: 0 0 80px 0;
 }
 
 .info {
@@ -138,7 +138,7 @@ h5 {
     margin: 0;
     justify-content: center;
     align-items: center;
-    gap: 36px;
+    gap: 48px;
 }
 
 .infohead {
@@ -156,20 +156,36 @@ h5 {
 .info img {
     height: 120px;
     width: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 6px;
 }
 
 .info p {
     padding: 0 2px 0 2px;
 }
 
-aside {
+.qoutebox {
     background-color: #E5E7EB;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-aside > p {
-    font: light italic 36px;
+.qoute {
+    margin: 0 0 0 50px;
+    padding: 40px 200px 20px 200px;
+}
+
+.qoute > p {
+    font-style: italic;
+    font-size: 36px;
     color: #1F2937;
+}
+
+.src {
+    margin: 0 0 0 50px;
+    padding: 0 0 40px 350px;
 }
 
 button {
